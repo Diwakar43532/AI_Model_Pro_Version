@@ -181,7 +181,7 @@ String string3 = "world";
 System.out.println(Objects.deepEquals(string1, string2)); // 输出：true（因为 string1 和 string2 相同）
 System.out.println(Objects.deepEquals(string1, string3)); // 输出：false（因为 string1 和 string3 不同）
 ```
-```text
+
 {% raw %}
 
 ```java
