@@ -181,8 +181,8 @@ String string3 = "world";
 System.out.println(Objects.deepEquals(string1, string2)); // 输出：true（因为 string1 和 string2 相同）
 System.out.println(Objects.deepEquals(string1, string3)); // 输出：false（因为 string1 和 string3 不同）
 ```
-
-再来个[二维数组](https://javabetter.cn/array/double-array.html)的：
+```text
+{% raw %}
 
 ```java
 String[][] nestedArray1 = {{"A", "B"}, {"C", "D"}};
@@ -192,6 +192,8 @@ String[][] nestedArray3 = {{"A", "B"}, {"C", "E"}};
 System.out.println(Objects.deepEquals(nestedArray1, nestedArray2)); // 输出：true (因为嵌套数组元素相同)
 System.out.println(Objects.deepEquals(nestedArray1, nestedArray3)); // 输出：false (因为嵌套数组元素不同)
 ```
+{% endraw %}
+
 
 ### 小结
 
